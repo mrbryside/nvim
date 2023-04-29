@@ -1,4 +1,4 @@
-vim.opt.runtimepath:prepend("~/.local/share/nvim/runtime")
+-- vim.opt.runtimepath:prepend("~/.local/share/nvim/runtime")
 
 require('plugins')
 require('vim-plugins')
@@ -26,10 +26,10 @@ require('buffer-line')
 require('auto-close')
 require('smooth-scroll')
 
- -- COMMENT
- require("nvim_comment").setup({
+-- COMMENT
+require("nvim_comment").setup({
 	operator_mapping = "<leader>/"
- })
+})
 
 -- ignore git
 --vim.g.NERDTreeGitIgnore = 1

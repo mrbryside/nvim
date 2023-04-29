@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/sirawat.i/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/sirawat.i/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/sirawat.i/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/sirawat.i/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/sirawat.i/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/Users/sirawat/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/sirawat/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/sirawat/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/sirawat/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/sirawat/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,262 +76,262 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["auto-session"] = {
-    config = { "\27LJ\2\n申1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\4\25auto_restore_enabled\2\25auto_session_enabled\2\14log_level\nerror\22auto_save_enabled\2\nsetup\17auto-session\frequire\0" },
+    config = { "\27LJ\2\n申1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\4\25auto_session_enabled\2\14log_level\nerror\22auto_save_enabled\2\25auto_restore_enabled\2\nsetup\17auto-session\frequire\0" },
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/auto-session",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/auto-session",
     url = "https://github.com/rmagatti/auto-session"
   },
   ["bufferline.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-nvim-lsp-signature-help"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp-signature-help",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp-signature-help",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp-signature-help"
   },
   ["cmp-nvim-lua"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
     url = "https://github.com/hrsh7th/cmp-nvim-lua"
   },
   ["cmp-path"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/cmp-path",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
   ["cmp-vsnip"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
   cmp_luasnip = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["dracula.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["go.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/go.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/go.nvim",
     url = "https://github.com/ray-x/go.nvim"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
   ["guihua.lua"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/guihua.lua",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/guihua.lua",
     url = "https://github.com/ray-x/guihua.lua"
   },
   harpoon = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/harpoon",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["neoscroll.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/neoscroll.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/neoscroll.nvim",
     url = "https://github.com/karb94/neoscroll.nvim"
   },
   ["nerdtree-git-plugin"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/nerdtree-git-plugin",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/nerdtree-git-plugin",
     url = "https://github.com/Xuyuanp/nerdtree-git-plugin"
   },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-comment"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/nvim-comment",
     url = "https://github.com/terrortylor/nvim-comment"
   },
   ["nvim-dap"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/nvim-dap",
     url = "https://github.com/mfussenegger/nvim-dap"
   },
   ["nvim-dap-ui"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
     url = "https://github.com/rcarriga/nvim-dap-ui"
   },
   ["nvim-lint"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/nvim-lint",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/nvim-lint",
     url = "https://github.com/mfussenegger/nvim-lint"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["rust-tools.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
     url = "https://github.com/simrat39/rust-tools.nvim"
   },
   tagbar = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/tagbar",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/tagbar",
     url = "https://github.com/preservim/tagbar"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["todo-comments.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
     url = "https://github.com/folke/todo-comments.nvim"
   },
   ["trouble.nvim"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/trouble.nvim",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
   },
   ["vim-dadbod"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/vim-dadbod",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/vim-dadbod",
     url = "https://github.com/tpope/vim-dadbod"
   },
   ["vim-dadbod-completion"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/vim-dadbod-completion",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/vim-dadbod-completion",
     url = "https://github.com/kristijanhusak/vim-dadbod-completion"
   },
   ["vim-dadbod-ui"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/vim-dadbod-ui",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/vim-dadbod-ui",
     url = "https://github.com/kristijanhusak/vim-dadbod-ui"
   },
   ["vim-dotenv"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/vim-dotenv",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/vim-dotenv",
     url = "https://github.com/tpope/vim-dotenv"
   },
   ["vim-floaterm"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
   },
   ["vim-fugitive"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-go"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/vim-go",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/vim-go",
     url = "https://github.com/fatih/vim-go"
   },
   ["vim-visual-multi"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
     url = "https://github.com/mg979/vim-visual-multi"
   },
   ["vim-vsnip"] = {
     loaded = true,
-    path = "/Users/sirawat.i/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    path = "/Users/sirawat/.local/share/nvim/site/pack/packer/start/vim-vsnip",
     url = "https://github.com/hrsh7th/vim-vsnip"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: auto-session
+time([[Config for auto-session]], true)
+try_loadstring("\27LJ\2\n申1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\4\25auto_session_enabled\2\14log_level\nerror\22auto_save_enabled\2\25auto_restore_enabled\2\nsetup\17auto-session\frequire\0", "config", "auto-session")
+time([[Config for auto-session]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
 time([[Config for nvim-autopairs]], false)
--- Config for: auto-session
-time([[Config for auto-session]], true)
-try_loadstring("\27LJ\2\n申1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\4\25auto_restore_enabled\2\25auto_session_enabled\2\14log_level\nerror\22auto_save_enabled\2\nsetup\17auto-session\frequire\0", "config", "auto-session")
-time([[Config for auto-session]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

@@ -46,6 +46,6 @@
 -- ]], false)
 
 vim.api.nvim_exec([[
-  autocmd BufWritePre *.go GoImports
-  autocmd BufWritePre * lua vim.lsp.buf.format()
 ]], false)
+   -- autocmd BufWritePre *.go GoImports
+   -- autocmd BufWritePre * lua vim.lsp.buf.format()

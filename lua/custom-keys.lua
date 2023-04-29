@@ -54,7 +54,7 @@ map('n', '<Leader>l', [[zc]], {})
 map('n', '<Leader>k', [[zo]], {})
 map('n', '<Leader>ö', [[zR]], {})
 -- Open git terminal
-map('n', '<Leader>g', [[:FloatermNew lazygit<CR>]], {})
+map('n', '<Leader>g', [[:FloatermNew --height=0.98 --width=0.7 lazygit<CR>]], {})
 -- nvim-dap keymappings
 -- Press f5 to debug
 map('n', '<F5>', [[:lua require'dap'.continue()<CR>]], {})

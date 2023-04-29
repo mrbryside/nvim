@@ -19,7 +19,6 @@ vim.cmd('command! Q qall')
 vim.cmd([[
   augroup AutoToggle
     autocmd!
+	autocmd VimEnter * silent! !osascript -e 'tell application "System Events" to keystroke "-"'
   augroup END
 ]])
--- autocmd VimEnter * silent! !osascript -e 'tell application "System Events" to keystroke "-"'
-	-- autocmd VimEnter * TSDisable highlight
